@@ -1,3 +1,6 @@
 # Vínculo pessoa -> role para o macrodomínio "core".
 # Linhas são adicionadas via PR pelo fluxo de solicitação (ver README).
-roles: []
+roles:
+  - name: eng
+    members:
+      - thiago.rizzo@primo.com.br
