@@ -1,8 +1,9 @@
 # CODEOWNERS — aprovação por macrodomínio.
 #
 # No modelo real (ADR-005), cada linha apontaria para o grupo/time owner do
-# macrodomínio (ex.: @grupoprimo/investimento-owners). Nesta POC, com um único
-# aprovador de teste, todas as entradas apontam para o mesmo usuário.
+# macrodomínio (ex.: @grupoprimo/investimento-owners). Nesta POC, o owner do
+# domínio "core" é uma conta distinta do solicitante-padrão de teste, para
+# poder exercitar a aprovação real (o GitHub bloqueia auto-aprovação).
 
 /access/investimento/*   @thiagorizzo
-/access/core/*            @thiagorizzo
+/access/core/*            @thiago-luiz-parrillo-rizzo
