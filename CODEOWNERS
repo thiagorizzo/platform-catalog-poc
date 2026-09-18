@@ -1,0 +1,8 @@
+# CODEOWNERS — aprovação por macrodomínio.
+#
+# No modelo real (ADR-005), cada linha apontaria para o grupo/time owner do
+# macrodomínio (ex.: @grupoprimo/investimento-owners). Nesta POC, com um único
+# aprovador de teste, todas as entradas apontam para o mesmo usuário.
+
+/access/investimento/*   @thiagorizzo
+/access/core/*            @thiagorizzo
